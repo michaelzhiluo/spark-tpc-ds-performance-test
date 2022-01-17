@@ -7,7 +7,7 @@
 # This is a mandatory parameter. Please provide the location of
 # spark installation.
 #######################################################################
-export SPARK_HOME=
+export SPARK_HOME=/usr/lib/spark
 
 #######################################################################
 # Script environment parameters. When they are not set the script
@@ -16,7 +16,7 @@ export SPARK_HOME=
 
 export TPCDS_ROOT_DIR=
 export TPCDS_LOG_DIR=
-export TPCDS_DBNAME=
+export TPCDS_DBNAME=TPCDS
 export TPCDS_WORK_DIR=
 
 export ADDITION_SPARK_OPTIONS=
